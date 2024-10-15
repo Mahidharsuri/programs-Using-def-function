@@ -1,0 +1,13 @@
+def palindrome(num):
+    sum=num
+    r=0
+    while num>0 :
+        a=num%10
+        r= (r*10)+a
+        num=num//10
+    if r == sum:
+        print("its a palindrome")
+    else:
+        print("not")
+
+palindrome(1221)
