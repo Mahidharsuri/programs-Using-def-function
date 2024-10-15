@@ -1,0 +1,12 @@
+ def count_case(str1):
+    lower_case=0
+    upper_case=0
+    count=0
+    for x in str1:
+        if x.islower():
+            lower_case+=1
+        elif x.isupper():
+            upper_case+=1
+    print(f"LOWER CASE CHARACTERS:{lower_case:1}")
+    print(f"UPPER CASE CHARACTERS:{upper_case:1}")
+count_case('The quick Brow Fox')
