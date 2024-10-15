@@ -1,0 +1,4 @@
+def string(a):
+   return a[::-1]
+n=string("max123")
+print(n)
