@@ -2,3 +2,14 @@ def string(a):
    return a[::-1]
 n=string("max123")
 print(n)
+
+--------------------------------------
+ def palindrome(str):
+    reverse=''
+    str1=len(str)-1
+    for x in str:
+        reverse+=x
+    print(reverse[::-1])
+
+
+palindrome("Mahidhar")    
