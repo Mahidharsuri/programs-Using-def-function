@@ -1,0 +1,8 @@
+def even_num(start,end):
+    even_list=[]
+    for x in range (start,end):
+        if x%2==0:
+            even_list.append(x)
+    return even_list
+
+print(even_num(0,20))
