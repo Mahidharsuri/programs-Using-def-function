@@ -1,0 +1,8 @@
+def GivenRange(n):
+    if n in range (1,8):
+        print(f"{n} in given range")
+    else:
+        print(f" {n} is out of range")
+    return
+n=int(input("enter a number :"))
+GivenRange(n)
