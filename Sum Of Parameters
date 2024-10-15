@@ -6,3 +6,12 @@ def sum_list(a,b,c,d):
 num=sum_list(3,4,3,2)
 
 print(num)
+
+--------------------------------
+--------------------------------
+def sum_value(*nums):
+    total=0
+    for num in nums:
+        total+=num
+    return(total)
+print(sum_value(1,2,3,4,5,6))
