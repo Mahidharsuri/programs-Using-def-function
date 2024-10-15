@@ -1,0 +1,7 @@
+def Lists(n):
+   new_list=[]
+   for x in n:
+       if x not in new_list:
+           new_list.append(x)
+   return new_list
+print(Lists((1,1,3,2,3,4,4,4,5,6)))
