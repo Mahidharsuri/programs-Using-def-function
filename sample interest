@@ -1,0 +1,11 @@
+def sample_intrest(p,r,t):
+    print("print principal amount is :",p)
+    print("rate of interest:",r)
+    print("time duration:",t)
+
+    total=(p*r*t)/100
+    return total
+P=8
+R=8
+T=6
+print(sample_intrest(P,R,T))
