@@ -5,3 +5,14 @@
     return factorial
 n=int(input(" enter a factorial number: "))
 print(sam_name(n))
+
+
+-------------------------------
+Using math 
+-------------------------------
+import math
+
+def factorial(n):
+    return(math.factorial(n))
+num=6
+print(factorial(num))
