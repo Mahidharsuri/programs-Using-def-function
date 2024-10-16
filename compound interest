@@ -1,0 +1,5 @@
+def compound_interest(principal,rate,time):
+     Amount= principal*pow((1+rate/100),time)
+     CI= Amount - principal
+     return CI
+print(compound_intrest(10000,10.25,5))
