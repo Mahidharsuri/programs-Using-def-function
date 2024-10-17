@@ -5,3 +5,15 @@ def first_last(num):
     return num
 n=[1,2,3,4,5]
 print(first_last(n))
+
+
+------------------------------
+ef first_last(num):
+    size=len(num)
+    temp=num[0]
+    num[0]=num[size-1]
+    num[size-1]=temp
+
+    return num
+n=[1,2,3,4,5]
+print(first_last(n))
