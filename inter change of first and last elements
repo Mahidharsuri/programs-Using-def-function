@@ -1,0 +1,7 @@
+  #inter change of first and last elements
+def first_last(num):
+    num[0],num[-1]=num[-1],num[0]
+
+    return num
+n=[1,2,3,4,5]
+print(first_last(n))
