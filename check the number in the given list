@@ -1,0 +1,12 @@
+#check the number in the given list
+
+my_list=[10,20,30,40,50,60]
+s=len(my_list)
+while True:
+    n=int(input("enter a number: "))
+
+    if n in my_list:
+        print("exist")
+    else:
+        print("not exist")
+        break
