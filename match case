@@ -1,0 +1,9 @@
+def is_weekend(day):
+    match day :
+        case "saturday" | "sunday":
+            return True
+        case "monday"|"tuesday"|"wednesday"|"thursday"|"friday":
+            return False
+        case _:
+            return "invalid"
+print(is_weekend("monday"))
