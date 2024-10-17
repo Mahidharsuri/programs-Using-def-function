@@ -1,0 +1,8 @@
+#swap elements in the list
+
+def swap(num_list):
+    M1,M2,M3,M4=1,3,5,6
+    num_list[M1],num_list[M2],num_list[M3],num_list[M4]=num_list[M2],num_list[M1],num_list[M4],num_list[M3]
+    return num_list
+n=[1,23,12,43,50,11,33.45]
+print(swap(n))
