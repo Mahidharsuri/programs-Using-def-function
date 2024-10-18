@@ -9,3 +9,19 @@ def prime_number(start,end):
 
 
 prime_number(2,20)
+
+
+----------------------------------------
+
+def primenumber(start,end):
+    a=[]
+    for x in range(start,end):
+        for n in range(start,x):
+            if x%n==0:
+                break
+        else:
+            a.append(x)
+    print(*a)
+
+
+primenumber(2,30)
