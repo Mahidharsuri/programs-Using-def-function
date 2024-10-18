@@ -1,0 +1,30 @@
+#Find average
+
+def find_avg(marks):
+    sum_marks= sum(marks)
+    no_of_subj=len(marks)
+    avg_marks=sum_marks/no_of_subj
+    return avg_marks
+
+#compute grade
+
+def compute_grade(avg_marks):
+    if avg_marks >= 80:
+        grade="A"
+    elif avg_marks >=70:
+        grade="B"
+    elif avg_marks >=60:
+        grade="C"
+    elif avg_marks >=50:
+        grade="D"
+    elif avg_marks>=40:
+        grade="E"
+    return grade
+
+Find 
+
+markes=[70,30,50,80,60,90,60]
+average= find_avg(markes)
+grade=compute_grade(average)
+print(f"average marks :{average:2f}")
+print(f"Grade is :{grade:5}")
