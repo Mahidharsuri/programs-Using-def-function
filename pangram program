@@ -1,0 +1,14 @@
+import string
+
+def ispangram(str1,alphabet=string.ascii_lowercase):
+      alphabet=string.ascii_lowercase
+
+      alphabet=set(alphabet)
+      str2=set(str1.lower())
+      if alphabet <= str2 :
+          print("Its a pangram")
+      else:
+           print("not a pangram")
+
+
+ispangram('The quick brown fox jumps over the lazy dog')
