@@ -7,3 +7,15 @@ def multiply_value(*nums):
 
 
 print(multiply_value(8, 2, 3, -1, 7))
+
+------------------------------------------------
+
+def multiply_value(*nums):
+    total=1
+    for num in nums:
+
+            total*=num
+    return total
+
+
+print(multiply_value(8, 2, 3, -1, 7))
