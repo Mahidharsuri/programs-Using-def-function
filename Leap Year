@@ -1,0 +1,16 @@
+import random
+
+def enter_year(enter):
+    leap=random.choice(enter)
+    return leap
+def leap_year(years):
+    if years % 4== 0:
+        return True
+    else:
+        return False
+
+yer=[2010,2014,2017,2024]
+year=enter_year(yer)
+leap=leap_year(year)
+print(year)
+print(leap)
