@@ -11,3 +11,17 @@ numss=[9,4,3,4,2,8,7]
 nums=len(numss)
 for num in range(nums):
     print(numss[num],end=' ')
+
+numss=[1,4,3,5,6,7,5,6]
+nums=len(numss)
+for num in range(nums):
+    print(numss[num],end=' ')
+
+
+
+---------------------------------
+
+numss=[9,4,3,4,2,8,7]
+nums=len(numss)
+for num in range(nums):
+    print(numss[num],end=' ')
