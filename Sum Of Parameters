@@ -9,7 +9,7 @@ print(num)
 
 --------------------------------
 --------------------------------
-def sum_value(*nums):
+def sum_value (*nums):
     total=0
     for num in nums:
         total+=num
