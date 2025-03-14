@@ -7,7 +7,7 @@ n=[1,2,3,4,5]
 print(first_last(n))
 
 
-------------------------------
+-------------------------------
 ef first_last(num):
     size=len(num)
     temp=num[0]
