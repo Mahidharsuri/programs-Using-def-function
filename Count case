@@ -9,4 +9,4 @@
             upper_case+=1
     print(f"LOWER CASE CHARACTERS:{lower_case:1}")
     print(f"UPPER CASE CHARACTERS:{upper_case:1}")
-count_case('The quick Brow Fox')
+count_case('The quick Brow Fox') 
