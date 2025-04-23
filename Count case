@@ -5,7 +5,7 @@
     for x in str1:
         if x.islower():
             lower_case+=1
-        elif x.isupper():
+        elif x.isupper(): 
             upper_case+=1
     print(f"LOWER CASE CHARACTERS:{lower_case:1}")
     print(f"UPPER CASE CHARACTERS:{upper_case:1}")
